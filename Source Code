@@ -1,0 +1,57 @@
+"""
+This is a program that encompasses all the functions of a modern calculator 
+"""
+###Code to be updated weekly
+import math
+import statistics
+def Addition():
+#This function should take multiple varaible and sum them up
+    sum
+
+def Subtraction():
+#This function should take multiple variables and subtract them
+    return
+def Division():
+    choice = "y"
+    while choice == "y":
+        num1 = float(input("num1: "))
+        num2 = float(input("num2: "))
+        dividend = num1 / num2
+        print("%f divided by %f gives %f" %(num1, num2, dividend))
+        choice = input("Continue(Enter y or n): ")
+        
+def Multiplication():
+    numbers = float(input("(Usse * for multiplication operator): "))
+    len_numbers =  numbers.split("*")
+    print(numbers)
+    total = 0
+    n = 0
+    m = 1
+    for number in len(numbers):
+        total = numbers[n] * numbers[m]
+        n += 1
+        m += 1
+    print("The product of the numbers is %f" %(total))
+        
+        
+        
+
+def main():
+    print("______________________________________________________________________________")
+    print("")
+    print("A. Addition " + "     " + "B.Multiplication " + "     " +\
+"C.Division" + "    " + "D.Subtraction")
+    print("")
+    print("E.Indices(e.g sqaure root=1/2, squares, cube)" + "    " + \
+"F.powers of 10" +  "    " + "G.Exponents")
+    print("")
+    print("H.natural log " + "     " + "I.logs to base 10" + "     " + \
+"J.factorial" + "    " + "K.logs to any base")
+    print("")
+    print("L.sin" + "     " + "M.cos" + "     " + "N.tan" + "     "\
+"O.sinh" + "     " + "P.cosh" + "     " + "Q.tanh")
+    print()
+    print("______________________________________________________________________________")
+    Multiplication()
+    
+main()
